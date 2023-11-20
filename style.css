@@ -7,6 +7,65 @@ body {
 
 h1 {
     color: #00a800; /* Başlık rengi */
+    font-size: 30px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    10% {
+      color: orangered;
+    }
+
+    50% {
+        color: green;
+      }
+    
+    60% {
+        color: powderblue;
+      }
+
+    70% {
+        color: powderblue;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+h1 {
+    color: #00a800; /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    100% {
+      color: red;
+    }
+
+    50% {
+        color: green;
+      }
+    
+    100% {
+        color: powderblue;
+      }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
 }
